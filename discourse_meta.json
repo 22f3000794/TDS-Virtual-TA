@@ -1,0 +1,310 @@
+[
+  {
+    "text": "Q: how to get the dummy API key?\nA: Hi Nilay,\nIn order to make a api call to openai chat completions you are required to send authentication information(openai key) in headers. For first question of GA3 you don’t have to send actual(working) api key, any dummy api key would work(you can put your name, or tds anything works)\nkind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/3"
+  },
+  {
+    "text": "Q: Q5.  How to handle the error ? sir @Jivraj\nError: The first input does not match the first text exactly\nA: Hi Vikash,\nI looked at your answers in backend. In answer you submitted response from openai, but you need to submit json object which is required for sending a request to LLM.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/18"
+  },
+  {
+    "text": "Q: Q4. How to handle this error? @Jivraj\n{\n  \"id\": \"chatcmpl-AshDCPwSiXNao1QXmCxCmi63GifFx\",\n  \"object\": \"chat.completion\",\n  \"created\": 1737599182,\n  \"model\": \"gpt-4o-mini-2024-07-18\",\n  \"choices\": [\n    {\n      \"index\": 0,\n      \"message\": {\n        \"role\": \"assistant\",\n        \"content\": \"The image contains an email address and a number. The email address appears to be associated with an educational institution, and the number seems to be a numerical sequence.\",\n        \"refusal\": null\n      },\n      \"logprobs\": null,\n      \"finish_reason\": \"stop\"\n    }\n  ],\n  \"usage\": {\n    \"prompt_tokens\": 592,\n    \"completion_tokens\": 33,\n    \"total_tokens\": 625,\n    \"prompt_tokens_details\": {\n      \"cached_tokens\": 0,\n      \"audio_tokens\": 0\n    },\n    \"completion_tokens_details\": {\n      \"reasoning_tokens\": 0,\n      \"audio_tokens\": 0,\n      \"accepted_prediction_tokens\": 0,\n      \"rejected_prediction_tokens\": 0\n    }\n  },\n  \"service_tier\": \"default\",\n  \"system_fingerprint\": \"fp_bd83329f63\",\n  \"monthlyCost\": 0.05490624000000001,\n  \"cost\": 0.001974,\n  \"monthlyRequests\": 14,\n  \"costError\": \"crypto.createHash is not a function\"\n}\n\nError: Model must be gpt-4o-mini\nA: You made same mistake here, instead of response use json body that’s required for sending request to LLM.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga3-large-language-models-discussion-thread-tds-jan-2025/163247/19"
+  },
+  {
+    "text": "Q: image1296×158 7.29 KB\nFor question 16 of GA1, It says \"Rename all files replacing each digit with the next \"\nAccepted answer is working only if file names are renamed as\n2h3q9x.txt → 3h4q0x.txt\neb209nmlca.txt → eb310nmlca.txt\nThat means if digit is 9 then next digit should be 0. @carlton @Jivraj let me know if this is what is expected. since 9->10 or 209 → 210 is not working\nA: Hi anant,\nQuestion mentions every digit should be replaced by next one.\nIn that case 209 would get replaced by 310",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/3"
+  },
+  {
+    "text": "Q: Hi, I am unable to access Graded Assignment 1. Every time I click on the given link, all I can see is this page. Please advise.\ntdsga11902×919 31.1 KB\nA: Possible reasons for this issue.\n\nDisable/remove Ad blocker\nDisable/remove Tracking blocker (Allow third party cookies)\nUse Chrome browser\nDisable Browser extensions",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/7"
+  },
+  {
+    "text": "Q: In attempting the third question, I’m unable to download the npm package as it requires docker. When trying to install docker from the installer, it freezes in the verifying package stage. Can somebody please help solve my problem?\n@carlton @Jivraj\nA: Hi Suhani,\nnpm does not require docker.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/14"
+  },
+  {
+    "text": "Q: image1627×202 12.6 KB\nWhich HTML content we want to take?\nA: Hi Hisham,\nIts described in the question. There is a hidden element hiding somewhere after that question. You would have to inspect the DOM to find it.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/15"
+  },
+  {
+    "text": "Q: Screenshot 2025-01-11 at 10.29.41 PM1440×900 160 KB\n@s.anand  please guide me through this question, my answer is showing incorrect\nA: Hi mishkat,\nWithout sharing code, can you pls share your approach how you are trying to solve this question.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/19"
+  },
+  {
+    "text": "Q: Hello Sir. I am unable to install uv in my windows system. Whenever I run the code provided at the reference link in Powershell, my anti-virus system sends a message that it was blocked. Even after blocking Real-time security, uv does not display. What am I doing wrong?\nA: Hi manmeet,\nI don’t know about solution to this.\nSome network setting might be causing problem.\nAlternatively you can make use of GitHub codespaces which provides 120 hours of free run time in a month. With GitHub codespaces you can use Ubuntu os, and visually it gives you feel of vs code. You can also active your GitHub student developer pack and get 180 hours of GitHub codespaces and some more benefits such as cloud resources and domains.\nI have done all questions of week1 and week2 on codespaces only, codespaces works very well if you have good internet connection.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/20"
+  },
+  {
+    "text": "Q: Hi, I’m unable to view assignments. below is the screenshot for your reference.\nScreenshot 2025-01-12 150511963×632 14.5 KB\nPlease suggest me a way to view it. I have allowed third-party cookies as well.\nThanks\nA: Hi samra,\nTry installing some other browser see if that works.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga1-development-tools-discussion-thread-tds-jan-2025/161083/21"
+  },
+  {
+    "text": "Q: @Jivraj Sir, Please look into in this matter, no reply from your side till now and 2 days have been passed.\nA: Apologies for that,\nThe second email was an automated script that used a stricter criteria. You have passed evaluation and also have a score. So dont worry. We will push scores over this weekend. We are currently doing normalisation.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-evaluation-second-mail-is-not-correct-and-reports-files-missing-while-they-are-present/171477/2"
+  },
+  {
+    "text": "Q: Hi @carlton,\nI’m experiencing the same issue mentioned in this thread regarding Project 1 evaluation emails:\n\nThe first email I received confirmed all requirements were met (public repo, MIT License, Dockerfile, etc.)\nThe second email incorrectly flagged missing files despite their presence in my repository\n\nHere are screenshots of both emails showing the discrepancy:\nFirst Evaluation Email1511×724 76.2 KB\nSecond Evaluation Email1247×681 37.5 KB\nMy GitHub repo remains publicly accessible with all required components:\nGitHub repo\nCould you please confirm this was an automated error and that my submission will be evaluated based on the actual repository contents? Your clarification would be greatly appreciated.\nThank you for your time and assistance!\nA: Hi,\nPrerequisite checks have passed. But your docker image was missing a dependency that you forgot to copy into the image. so it failed to evaluate because it failed to run.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-evaluation-second-mail-is-not-correct-and-reports-files-missing-while-they-are-present/171477/4"
+  },
+  {
+    "text": "Q: Good Morning Sir, Actually even I got the mail regarding Project-1 Evaluation, where I got the message like the prerequisites were not met. But, sir actually I have uploaded my MIT License file, requirements.txt file, my Project.py file and the Dockerfile. Sir, and when I sent a request to my API from my device, it worked sir. I have got 0 in my project 1 sir, but I have met the pre-requisites Can you please check this once sir?\nMy GitHub repository for Project-1: GitHub - sudhishssn134/project_1_tds\nThanking You\nJust attaching the mail I recieved.\nScreenshot 2025-04-12 1042111429×750 71 KB\nA: Your Dockerfile was misconfigured. When we try to build the docker image from your github repo, we get this error:\ntried copying parent folder(COPY failed: forbidden path outside the build context: .. ())\nYou have to replicate the test environment. If it works when you follow this test setup then you should get in touch with us.\n\n\n\nTds-official-Project1-discrepencies Tools in Data Science\n\n\n    To replicate the test environment: \nFetch the github repo’s latest commit before 18th feb use below code for that. You need to have github cli installed on your system and need authentication for certain github api enpoint access. Once authenticated and providing the appropriate repo details you can  run this code using uv. \n# /// script\n# dependencies = [\n#   \"requests\",\n# ]\n# ///\n\nimport requests\nimport datetime as dt\nimport zoneinfo\nimport argparse\nimport os\nimport zipfile\n\nparser = argparse.…",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-evaluation-second-mail-is-not-correct-and-reports-files-missing-while-they-are-present/171477/8"
+  },
+  {
+    "text": "Q: If we use ngrok to create a tunnel to our API or Llamafile server, for how long should our terminal remain running? Should it be active only at the time of submission, or must it be continuously available until evaluation is completed?\nA: If you use ngrok, ensure that it is running continuously until you get your results",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-discussion-thread/169029/8"
+  },
+  {
+    "text": "Q: Is it like only the questions from the portal will be sent to the api?\nIf yes, is this project just about finding which question is asked and accordingly match the answer send the answer as response?\nA: Any question from first 5 Ga’s can be there and you would need to analyze which question it is, you can use function calling or prompting as well. Function calling is better approach here.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-discussion-thread/169029/9"
+  },
+  {
+    "text": "Q: image935×173 6.54 KB\nHello Sir,\nI understand that we can deploy on vercel. Can it be deployed on Heroku as well? I believe both serve the same purpose. Wanted to know your thoughts on the same sir.\nThanks and Regards\nShalini\nA: Hi @24f2006531\nYou can deploy it anywhere, just test how it works on Heroku, if it works(send request to api endpoint to your application and it should respond with answer)\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-2-tds-solver-discussion-thread/169029/10"
+  },
+  {
+    "text": "Q: How come me and my group used same code but some got 10 some 11 some 12?\nA: You have to see the logs for that. We have shared the logs. Everyone was graded by the exact same code, so there is no partiality. Your code did not produce consistent results.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-official-project1-discrepencies/171141/4"
+  },
+  {
+    "text": "Q: I have noticed that my image was run on a x86_64 architecture ( I can see my email in the logs shared ) whereas I built this docker image on my mac which is ARM. This is why I can see that my docker image never ran properly and threw the exec format error.\nThis was never mentioned on which architecture machine, our images will be evaluated. I request that my evaluation be done again on the right machine.\nA: We will check and rerun on arm if we ran it on the wrong emulation.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-official-project1-discrepencies/171141/7"
+  },
+  {
+    "text": "Q: TDS is the worst subject to repeat in order to improve CGPA.\nIts better to take a high credit, easy course to improve CGPA. We never recommend taking TDS for grade improvement. If you have passed it, its better to move on.\nA: Just as matter of interest, even on campus IITM MTech students take foundation Python course from BS Program to artificially improve their on campus CGPA (they take it as an elective).\nSo if the CGPA is that big a deal, do an easy 4 credit course and get an S. Dont repeat hard subjects, thats just a waste of time.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/repeat-course/171798/3"
+  },
+  {
+    "text": "Q: Hi @carlton please upload the recording of Thursday’s TDS session on the YouTube playlist\nA: Live Session - TDS - 2025/04/10 20:00 GMT+05:30 - Recording - Google Drive\nAccess recording through this gdrive link",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/end-term-mock-tds-jan-25/172333/8"
+  },
+  {
+    "text": "Q: Yes, same for me the links i got has not been accessed to me. I mailed regarding this. So i filled form for most of the peers. I was waiting for the response but didnt get any.\nA: @SohamHaldar @21f3000745 We had sent out an email with an extra non - duplicate peer and extended the deadline by a day to accommodate reviewing the extra peer. Please check your email with the subject.\n[TDS Jan 25] Bonus peer",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/what-to-do-if-peer-has-not-allowed-access-and-the-deadline-is-over-for-peer-review-in-project-2/172471/2"
+  },
+  {
+    "text": "Q: Is it compulsory to use microsoft powerpoint? Can we use google slides?\nA: We will be using scripts to check the submissions. You will have to use PowerPoint.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-data-visualisation-discussion-thread-tds-jan-2025/169888/5"
+  },
+  {
+    "text": "Q: Hi @carlton,\nI was working on GA7 as part of Task 4 in 7.1. In task 4.Sheet1, the columns include Series ID, Item, Year, Month, and Value. While I could extract Series ID and Item, I couldn’t locate Year, Month, or Value in the dataset. Could someone please assist me with this?\nimage1393×657 67.8 KB\nA: image1227×791 78.2 KB\nMonthly Price Indices file have those columns.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-data-visualisation-discussion-thread-tds-jan-2025/169888/7"
+  },
+  {
+    "text": "Q: @carlton Sir I don’t have Microsoft PowerPoint. What should I do ?\nA: Use the free version on Microsoft 365",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-data-visualisation-discussion-thread-tds-jan-2025/169888/15"
+  },
+  {
+    "text": "Q: once i submitted the answers. but when i clicked on edit response and it deleted all the submitted answers. What to do in this case @carlton @Jivraj @Saransh_Saini\nA: Hi Tanya,\nBoth you responses have been recorded. So it has not been deleted. Its just the way google forms works, it does not reload your previous responses.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga7-data-visualisation-discussion-thread-tds-jan-2025/169888/21"
+  },
+  {
+    "text": "Q: Hi @carlton sir,\nI have received the bonus marks email with 5 additional HTML files for peer review. However, I noticed that one of these files was also included in the initial peer grading email.\nCould you please clarify if I should fill out the peer review form for this particular file again, or should I skip it since it has already been graded?\n10000415651280×349 87.7 KB\nA: Thanks we have made a correction and sent an email.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-ga7-score-missing/171500/8"
+  },
+  {
+    "text": "Q: sir show us all the way to do project\nA: Hi Shouvik,\nWe will have live sessions to guide on how to do project.\nKind regards\nJivraj",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277/3"
+  },
+  {
+    "text": "Q: Screenshot 2025-01-23 1516141281×125 18.1 KB\nsir @Jivraj after editing line 127 in datagen.py i got those  required data files. is it allowed ? also i had to run datagen.py MANUALLY(is this process also should be automatic)?\nA: Hi Guddu ,\nI didn’t make any changes to file and it worked for me. Can you mention what is need of making changes ?\ncommand that I used :\nuv run datagen.py 22f3002542@ds.study.iitm.ac.in --root ./data\nhere --root option defines the folder where you want to store generated data. by default it would try to create a folder in root directory of operating system.\nKind regards\nJivraj",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277/7"
+  },
+  {
+    "text": "Q: getting this issue :\nopenai.AuthenticationError: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_issuer'}}\nA: Hi Aishik,\nPls add context to your query, without that we won’t be able to understand, where exactly you are facing problem.\n\n\n\n 23f2005325:\n\nopenai.AuthenticationError: Error code: 401 - {'error': {'message': 'Your authentication token is not from a valid issuer.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_issuer'}}\n\n\n\nPossible reasons for this issue:\n\nNot using anand sir’s proxy url for sending requests.\nToken not being correct.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277/10"
+  },
+  {
+    "text": "Q: do we have to do these tasks in the linux? As in some of the GA1, the linux answers only accepted. Please tell me that, do we can do it in the desktop or we have to use linux?\n@Jivraj @carlton\nA: The bash commands are usually run in a linux machine, but you can easily run those commands in VSCode without installing any virtual machines. Download the WSL extension in VSCode and you will get a WSL terminal to work with.\nFor more information watch this video https://youtu.be/q74CP4fB7cY?si=M_zw8WzpmMCyVQat or watch TDS Live Sessions.\nRegards,\nTDS TA",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277/16"
+  },
+  {
+    "text": "Q: what frameworks can we use? hopefully anything?\nor what frameworks can’t we use?\n@carlton @Jivraj\nA: @23f1002382\nYou can use any library as long as your Project 1 meets the deliverable requirements and does all the (20+) API tasks.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-llm-based-automation-agent-discussion-thread-tds-jan-2025/164277/18"
+  },
+  {
+    "text": "Q: Hi @carlton,\nMy Project 1 scores are not visible on the part, I have definitely submitted before the deadline and on the grades section - its coming as not submitted. I have mailed support team as well. Will it be possible to check the same in any manner.\nRegards,\nAjit\nA: No one has received their Project 1 scores yet. We are hoping to very soon announce preliminary results. (maybe in 24 hours or so). Depends how many bugs we get bitten by.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-tds-score-not-showing-i/168916/4"
+  },
+  {
+    "text": "Q: @kushabarodekar @Muthupalaniappan\nAs usual recording will be uploaded to youtube.\nA: This is the recording of the session.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-jan-25-imp-announcement-for-project-2/170413/5"
+  },
+  {
+    "text": "Q: tigertds212×148 6.99 KB\n@carlton It’s been over a month, and now an extra day has been taken as well—when will TDS Project 1 finally be released? The delay is getting excessive; some clarity on the timeline would be appreciated.\nA: We do not know yet. Please read reply to the original poster.\nThanks,\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/concerns-regarding-various-issues-graded-assignments-project-doubts-and-roe-score-updates/170147/2"
+  },
+  {
+    "text": "Q: Hi Carlton,\nI am writing to confirm the basic requirements for successfully completing the course.\nAs I understand, the criteria for passing are:\n\nAchieving a score greater than 40 marks in the graded assignments.\nSecuring more than 40 marks in the end-term examination.\n\nCould you kindly confirm if this understanding is accurate? Additionally, please let me know if there are any other prerequisites to be met.\nA: Best 2/5 first weekly GA >=40\nFinal course score T = 0.15GAA + 0.2 ROE1 + 0.2 P1 + 0.2P2 + 0.25F\nFinal T >= 40 (or less depending on any certificates for disabilities/SCST/OB etc.)",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/clarification-on-passing-criteria-for-tds-january-2025-term/169807/1"
+  },
+  {
+    "text": "Q: Would we be able to start work on the questions 1 hour before the exam start time?\nA: @bhashwar_sengupta No that will not be possible. It will go live only at 1 pm.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/remote-online-exam-tds-jan-2025/168832/3"
+  },
+  {
+    "text": "Q: Hello @carlton sir, I could only find one live session of ROE in youtube. Can you please point out where are the other recordings?\nA: All week 7 sessions are ROE mock solving questions. Only the 4th session was a special session and was labelled as such, but it also has a mock solving component. These are all available on the Youtube channel",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/remote-online-exam-tds-jan-2025/168832/10"
+  },
+  {
+    "text": "Q: @carlton @s.anand I don’t see the link to GA6 on the course page.\nA: Its in seek portal. Please login to your Dashboard and check.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/revised-dates-tds-jan-2025/168506/4"
+  },
+  {
+    "text": "Q: image1448×623 16.3 KB\ni can’t load my questions\nA: @23f1002630 - thanks for raising this. It’s fixed and won’t re-occur for anyone.\nWhat happened? I picked random duration from the video of 10-40 seconds, but forgot to ensure that the end time should not exceed the video length. That’s what I fixed.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-data-preparation-discussion-thread-tds-jan-2025/166576/3"
+  },
+  {
+    "text": "Q: i guess there’s some issue in 5th question as i have correctly filtered the data in OpenRefine 2-3 times but still getting incorrect in the portal.\nA: OpenRefine question has historically been a tricky question to get right. Check out some past TA sessions in previous term for solving it, or previous discourse posts.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-data-preparation-discussion-thread-tds-jan-2025/166576/7"
+  },
+  {
+    "text": "Q: I’ve attempted this question several times and I’m fairly certain that the answer to this question is incorrect. I’d be grateful if the answer to this question was re-checked. I can share the answer I’m certain about here, however I do not think it would be prudent to do so given this is a public forum.\nPlease consider my request and double check-\n@Jivraj, @carlton\nThank you\ngrab-IIT-Madras--Microsoft Edge_at_23.15.25_on__14-02-2025__0032551920×1317 210 KB\nA: @23f1003186 thanks again for flagging this. This is fixed, too.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-data-preparation-discussion-thread-tds-jan-2025/166576/13"
+  },
+  {
+    "text": "Q: Can you provide your roll no. We can then check your GA5\nA: Hi @Pranjal085\nI have checked your GA5 submission and you have submitted it past the deadline on the 22nd.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/disparity-in-tds-ga-5-scores/169247/3"
+  },
+  {
+    "text": "Q: Should we use data mentioned in headline of form or mail data. ?\nA: either is fine. Both have the same data but slightly different presentations",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/mock-roe-1-2-3-4-tds-jan-2025/168449/3"
+  },
+  {
+    "text": "Q: From where can I get today’s live sessions link\nA: From google calendar\n\n\nGoogle Workspace\n\n\n\nShareable Online Calendar and Scheduling - Google Calendar\nUse Google Calendar to share meetings and schedule appointments, for managing what matters in your business and personal life, with Google Workspace.\n\n\n\n\n\nYou should subscribe to tds calendar. Its available in the TDS Portal\nmeet.google.com/odh-ycbm-ahj",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/mock-roe-1-2-3-4-tds-jan-2025/168449/4"
+  },
+  {
+    "text": "Q: dear @carlton\nwhen will yesterday’s recorded session on mock ROE 1 be uploaded on YouTube?\nA: @23f2003413\nWe will have it uploaded sometime this morning.\nIt has two parts to it. The first part is the TAs solving the Mock in real time (however this is not a solutions session). The purpose of it is to get you to realise some key things:\n\nThe chaos of ROE.\nThe adrenaline, speed of thought, the need to be very familiar with your tools.\nThe limited time you have to use GPT effectively. It will help you with minor work flows, but not with complex tasks. (watch the session debrief to hear a clear articulation about this).\nThe value of efficient and effective collaboration. A hodgepodge of many people will not make an effective solutions team.\nThe ABSOLUTE importance of creating your own cheat sheet with code snippets that will help you solve ROE quickly\nWorkflow of ROE: Data Extraction → Data Cleaning → Data Transformation → Data Analyisis → Information to answer questions\nThe pitfalls of getting fixated on a question (a very common mistake and you can see it happen in the real time solving session as well).\nHow limited the time is.\n\nThe second part of the session was a debrief for the sheer shock that students felt. The goal of the mock was to acclimatise you to the shock of ROE.\nPast terms never had this benefit. We thought to take the shock factor out so that you can be better prepared than any term before. Emotions were raw. But this is normal. What is unusual is to have a preview of it before ROE. So the discussions were very intense even for us.\nToday’s Mock ROE will be more like a traditional solving session and deal with new aspects. It has the added bonus of being hosted on an exam server (without a time limit).\nI would still STRONGLY advise setting a horrible sounding alarm to acclimatise to the pressure cooker of ROE. You will make stupid mistakes under pressure. The TAs did yesterday as well. So best to reduce this factor by getting used to the clock.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/mock-roe-1-2-3-4-tds-jan-2025/168449/14"
+  },
+  {
+    "text": "Q: Hello @carlton sir , for me given constituency was \"SRI GOBINDPUR\"\nand in the dataset there are multiple names for this constituency i think over the period names were changed of this constituency\ni have filtered constituencies from punjab using below code in colab\ndf_gobindpur = df[df[\"AC\"].str.contains(\"SRI GOBINDPUR|SRIHARGOBINDPUR|SRI HARGOBINDPUR\", case=False, na=False)]\n\nis this correct approach or i have to consider only SRI GOBINDPUR name only? but then this constituency is not availble after 1957\nusing above filtering i got below data for SRI GOBINDPUR\n\ndrive.google.com\n\n\n\ndf_gobindpur.csv\nGoogle Drive file.\n\n\n\n\n\nthen i used margin formula as\nmargin_percentage = ((winner_votes - runner_up_votes) / total_votes) * 100\n\nusing this i got answer for 1st question as\nYEAR                              1992\nAC                   4 SRIHARGOBINDPUR\nWINNER                  1 GURNAM SINGH\nWINNER_PARTY                       CPI\nWINNER_VOTES                    5000.0\nRUNNER_UP               2 MUSTAK MASIH\nRUNNER_UP_PARTY                    INC\nRUNNER_UP_VOTES                 1115.0\nMARGIN_PERCENTAGE            50.599114\n\nwhich is 50.60 , but answer is 62.64\npls guide where i might be wrong, thanks\nA: shubhamatkal:\n\ndf_gobindpur = df[df[\"AC\"].str.contains(\"SRI GOBINDPUR|SRIHARGOBINDPUR|SRI HARGOBINDPUR\", case=False, na=False)]\n\n\n\nFor this kind of name difference you can use Openrefine software\n\n\n\n shubhamatkal:\n\nwhich is 50.60 , but answer is 62.64\n\n\nThat answer is wrong, we will be releasing a script with correct python snippets.\nKind regards.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/mock-roe-1-2-3-4-tds-jan-2025/168449/19"
+  },
+  {
+    "text": "Q: Seeing the difficulty of TDS I feel like appying to Anand Sir’s company lol. I am barely surviving but enjoying every moment of it. But seriously though remembering everything is super difficult.\nA: You will survive. Just watch tonight’s session.  and prepare and practise.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/concerns-regarding-tds-course-difficulty-and-grading-fairness/168476/16"
+  },
+  {
+    "text": "Q: hi @carlton\nhow are we supposed to give the mock ROE? where can I find the link? should i join gmeet while solving mock ROE or is it non-proctored? kindly clarify these doubts. thanks in advance!\nA: You will get an email at 7pm with the ROE dataset and the question form.\nI will also add the same in the student seek portal.\nMock ROEs are not proctored (its a mock!) and the actual ROE is not proctored either!\nThe gmeet is after the mock ROE where it will be solved live by the TDS team.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/clarification-regarding-mock-roe-timings/168384/4"
+  },
+  {
+    "text": "Q: you got the wrong Anand here.  You perhaps wanted to tag the faculty of this course s.anand (I’m purposely not tagging him; you may do so)\nA: I feel for you because you constantly get incorrectly tagged. On the plus side you are famous (or infamous depending on perspective  )\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-roe-exam-date-shift/168458/3"
+  },
+  {
+    "text": "Q: Hi @muskan2431 we are running some checks.\nPlease bear with us,\nKind regards\nA: We have determined that some students were affected by GA5 Q3. Whoever we have identified as having received the incorrect assessment will receive 1 mark for that particular question. These are the students that we have identified as been assessed incorrectly:\n\n\n\n\nSN\nEmail\n\n\n\n\n1\n21f1000131@ds.study.iitm.ac.in\n\n\n2\n21f1001484@ds.study.iitm.ac.in\n\n\n3\n21f1001631@ds.study.iitm.ac.in\n\n\n4\n21f1001729@ds.study.iitm.ac.in\n\n\n5\n21f1001890@ds.study.iitm.ac.in\n\n\n6\n21f1002734@ds.study.iitm.ac.in\n\n\n7\n21f1002773@ds.study.iitm.ac.in\n\n\n8\n21f1003135@ds.study.iitm.ac.in\n\n\n9\n21f1003475@ds.study.iitm.ac.in\n\n\n10\n21f1003816@ds.study.iitm.ac.in\n\n\n11\n21f1005422@ds.study.iitm.ac.in\n\n\n12\n21f1005510@ds.study.iitm.ac.in\n\n\n13\n21f1006234@ds.study.iitm.ac.in\n\n\n14\n21f1006309@ds.study.iitm.ac.in\n\n\n15\n21f1006867@ds.study.iitm.ac.in\n\n\n16\n21f2000525@ds.study.iitm.ac.in\n\n\n17\n21f2000913@ds.study.iitm.ac.in\n\n\n18\n21f2000998@ds.study.iitm.ac.in\n\n\n19\n21f2001061@ds.study.iitm.ac.in\n\n\n20\n21f2001080@ds.study.iitm.ac.in\n\n\n21\n21f2001543@ds.study.iitm.ac.in\n\n\n22\n21f3000311@ds.study.iitm.ac.in\n\n\n23\n21f3000355@ds.study.iitm.ac.in\n\n\n24\n21f3000512@ds.study.iitm.ac.in\n\n\n25\n21f3000591@ds.study.iitm.ac.in\n\n\n26\n21f3000687@ds.study.iitm.ac.in\n\n\n27\n21f3000813@ds.study.iitm.ac.in\n\n\n28\n21f3001091@ds.study.iitm.ac.in\n\n\n29\n21f3001161@ds.study.iitm.ac.in\n\n\n30\n21f3001936@ds.study.iitm.ac.in\n\n\n31\n21f3001965@ds.study.iitm.ac.in\n\n\n32\n21f3002158@ds.study.iitm.ac.in\n\n\n33\n21f3002431@ds.study.iitm.ac.in\n\n\n34\n21f3002444@ds.study.iitm.ac.in\n\n\n35\n21f3002647@ds.study.iitm.ac.in\n\n\n36\n21f3002782@ds.study.iitm.ac.in\n\n\n37\n21f3003195@ds.study.iitm.ac.in\n\n\n38\n22ds2000011@ds.study.iitm.ac.in\n\n\n39\n22f1000376@ds.study.iitm.ac.in\n\n\n40\n22f1000821@ds.study.iitm.ac.in\n\n\n41\n22f1000902@ds.study.iitm.ac.in\n\n\n42\n22f1000935@ds.study.iitm.ac.in\n\n\n43\n22f1000989@ds.study.iitm.ac.in\n\n\n44\n22f1001095@ds.study.iitm.ac.in\n\n\n45\n22f1001316@ds.study.iitm.ac.in\n\n\n46\n22f1001391@ds.study.iitm.ac.in\n\n\n47\n22f1001416@ds.study.iitm.ac.in\n\n\n48\n22f1001438@ds.study.iitm.ac.in\n\n\n49\n22f1001542@ds.study.iitm.ac.in\n\n\n50\n22f1001551@ds.study.iitm.ac.in\n\n\n51\n22f1001552@ds.study.iitm.ac.in\n\n\n52\n22f1001862@ds.study.iitm.ac.in\n\n\n53\n22f2000108@ds.study.iitm.ac.in\n\n\n54\n22f2000113@ds.study.iitm.ac.in\n\n\n55\n22f2000116@ds.study.iitm.ac.in\n\n\n56\n22f2000273@ds.study.iitm.ac.in\n\n\n57\n22f2000467@ds.study.iitm.ac.in\n\n\n58\n22f2000813@ds.study.iitm.ac.in\n\n\n59\n22f2000898@ds.study.iitm.ac.in\n\n\n60\n22f2000946@ds.study.iitm.ac.in\n\n\n61\n22f2001041@ds.study.iitm.ac.in\n\n\n62\n22f2001336@ds.study.iitm.ac.in\n\n\n63\n22f2001532@ds.study.iitm.ac.in\n\n\n64\n22f2001590@ds.study.iitm.ac.in\n\n\n65\n22f3000275@ds.study.iitm.ac.in\n\n\n66\n22f3000337@ds.study.iitm.ac.in\n\n\n67\n22f3000419@ds.study.iitm.ac.in\n\n\n68\n22f3000422@ds.study.iitm.ac.in\n\n\n69\n22f3000487@ds.study.iitm.ac.in\n\n\n70\n22f3000563@ds.study.iitm.ac.in\n\n\n71\n22f3000694@ds.study.iitm.ac.in\n\n\n72\n22f3000814@ds.study.iitm.ac.in\n\n\n73\n22f3000819@ds.study.iitm.ac.in\n\n\n74\n22f3000831@ds.study.iitm.ac.in\n\n\n75\n22f3000833@ds.study.iitm.ac.in\n\n\n76\n22f3001050@ds.study.iitm.ac.in\n\n\n77\n22f3001074@ds.study.iitm.ac.in\n\n\n78\n22f3001108@ds.study.iitm.ac.in\n\n\n79\n22f3001278@ds.study.iitm.ac.in\n\n\n80\n22f3001316@ds.study.iitm.ac.in\n\n\n81\n22f3001675@ds.study.iitm.ac.in\n\n\n82\n22f3001688@ds.study.iitm.ac.in\n\n\n83\n22f3001777@ds.study.iitm.ac.in\n\n\n84\n22f3001834@ds.study.iitm.ac.in\n\n\n85\n22f3001930@ds.study.iitm.ac.in\n\n\n86\n22f3001961@ds.study.iitm.ac.in\n\n\n87\n22f3001967@ds.study.iitm.ac.in\n\n\n88\n22f3002011@ds.study.iitm.ac.in\n\n\n89\n22f3002175@ds.study.iitm.ac.in\n\n\n90\n22f3002184@ds.study.iitm.ac.in\n\n\n91\n22f3002236@ds.study.iitm.ac.in\n\n\n92\n22f3002265@ds.study.iitm.ac.in\n\n\n93\n22f3002291@ds.study.iitm.ac.in\n\n\n94\n22f3002307@ds.study.iitm.ac.in\n\n\n95\n22f3002394@ds.study.iitm.ac.in\n\n\n96\n22f3002447@ds.study.iitm.ac.in\n\n\n97\n22f3002498@ds.study.iitm.ac.in\n\n\n98\n22f3002565@ds.study.iitm.ac.in\n\n\n99\n22f3002634@ds.study.iitm.ac.in\n\n\n100\n22f3002712@ds.study.iitm.ac.in\n\n\n101\n22f3002813@ds.study.iitm.ac.in\n\n\n102\n22f3002844@ds.study.iitm.ac.in\n\n\n103\n22f3002948@ds.study.iitm.ac.in\n\n\n104\n22f3003003@ds.study.iitm.ac.in\n\n\n105\n22f3003237@ds.study.iitm.ac.in\n\n\n106\n23ds1000032@ds.study.iitm.ac.in\n\n\n107\n23ds2000055@ds.study.iitm.ac.in\n\n\n108\n23ds2000069@ds.study.iitm.ac.in\n\n\n109\n23ds3000146@ds.study.iitm.ac.in\n\n\n110\n23ds3000149@ds.study.iitm.ac.in\n\n\n111\n23ds3000224@ds.study.iitm.ac.in\n\n\n112\n23f1000232@ds.study.iitm.ac.in\n\n\n113\n23f1000257@ds.study.iitm.ac.in\n\n\n114\n23f1000292@ds.study.iitm.ac.in\n\n\n115\n23f1000587@ds.study.iitm.ac.in\n\n\n116\n23f1000776@ds.study.iitm.ac.in\n\n\n117\n23f1000813@ds.study.iitm.ac.in\n\n\n118\n23f1000844@ds.study.iitm.ac.in\n\n\n119\n23f1001472@ds.study.iitm.ac.in\n\n\n120\n23f1001651@ds.study.iitm.ac.in\n\n\n121\n23f1001684@ds.study.iitm.ac.in\n\n\n122\n23f1001788@ds.study.iitm.ac.in\n\n\n123\n23f1001861@ds.study.iitm.ac.in\n\n\n124\n23f1002075@ds.study.iitm.ac.in\n\n\n125\n23f1002114@ds.study.iitm.ac.in\n\n\n126\n23f1002279@ds.study.iitm.ac.in\n\n\n127\n23f1002345@ds.study.iitm.ac.in\n\n\n128\n23f1002362@ds.study.iitm.ac.in\n\n\n129\n23f1002535@ds.study.iitm.ac.in\n\n\n130\n23f1002563@ds.study.iitm.ac.in\n\n\n131\n23f1002586@ds.study.iitm.ac.in\n\n\n132\n23f1002630@ds.study.iitm.ac.in\n\n\n133\n23f1002929@ds.study.iitm.ac.in\n\n\n134\n23f1003000@ds.study.iitm.ac.in\n\n\n135\n23f1003115@ds.study.iitm.ac.in\n\n\n136\n23f2000119@ds.study.iitm.ac.in\n\n\n137\n23f2000273@ds.study.iitm.ac.in\n\n\n138\n23f2000762@ds.study.iitm.ac.in\n\n\n139\n23f2000794@ds.study.iitm.ac.in\n\n\n140\n23f2000822@ds.study.iitm.ac.in\n\n\n141\n23f2000926@ds.study.iitm.ac.in\n\n\n142\n23f2000942@ds.study.iitm.ac.in\n\n\n143\n23f2001274@ds.study.iitm.ac.in\n\n\n144\n23f2001347@ds.study.iitm.ac.in\n\n\n145\n23f2001494@ds.study.iitm.ac.in\n\n\n146\n23f2001529@ds.study.iitm.ac.in\n\n\n147\n23f2001539@ds.study.iitm.ac.in\n\n\n148\n23f2001661@ds.study.iitm.ac.in\n\n\n149\n23f2001960@ds.study.iitm.ac.in\n\n\n150\n23f2001992@ds.study.iitm.ac.in\n\n\n151\n23f2002034@ds.study.iitm.ac.in\n\n\n152\n23f2002121@ds.study.iitm.ac.in\n\n\n153\n23f2002865@ds.study.iitm.ac.in\n\n\n154\n23f2002939@ds.study.iitm.ac.in\n\n\n155\n23f2003529@ds.study.iitm.ac.in\n\n\n156\n23f2003751@ds.study.iitm.ac.in\n\n\n157\n23f2003893@ds.study.iitm.ac.in\n\n\n158\n23f2004115@ds.study.iitm.ac.in\n\n\n159\n23f2004244@ds.study.iitm.ac.in\n\n\n160\n23f2004366@ds.study.iitm.ac.in\n\n\n161\n23f2004443@ds.study.iitm.ac.in\n\n\n162\n23f2004473@ds.study.iitm.ac.in\n\n\n163\n23f2004510@ds.study.iitm.ac.in\n\n\n164\n23f2004637@ds.study.iitm.ac.in\n\n\n165\n23f2004770@ds.study.iitm.ac.in\n\n\n166\n23f2004793@ds.study.iitm.ac.in\n\n\n167\n23f2004936@ds.study.iitm.ac.in\n\n\n168\n23f2004979@ds.study.iitm.ac.in\n\n\n169\n23f2005010@ds.study.iitm.ac.in\n\n\n170\n23f2005193@ds.study.iitm.ac.in\n\n\n171\n23f2005325@ds.study.iitm.ac.in\n\n\n172\n23f2005398@ds.study.iitm.ac.in\n\n\n173\n23f2005474@ds.study.iitm.ac.in\n\n\n174\n23f2005525@ds.study.iitm.ac.in\n\n\n175\n23f2005665@ds.study.iitm.ac.in\n\n\n176\n23f2005701@ds.study.iitm.ac.in\n\n\n177\n23f2005706@ds.study.iitm.ac.in\n\n\n178\n23f2005738@ds.study.iitm.ac.in\n\n\n179\n23f3000975@ds.study.iitm.ac.in\n\n\n180\n23f3001271@ds.study.iitm.ac.in\n\n\n181\n23f3001462@ds.study.iitm.ac.in\n\n\n182\n23f3001572@ds.study.iitm.ac.in\n\n\n183\n23f3001745@ds.study.iitm.ac.in\n\n\n184\n23f3001752@ds.study.iitm.ac.in\n\n\n185\n23f3001764@ds.study.iitm.ac.in\n\n\n186\n23f3001848@ds.study.iitm.ac.in\n\n\n187\n23f3002196@ds.study.iitm.ac.in\n\n\n188\n23f3002427@ds.study.iitm.ac.in\n\n\n189\n23f3002537@ds.study.iitm.ac.in\n\n\n190\n23f3002643@ds.study.iitm.ac.in\n\n\n191\n23f3003016@ds.study.iitm.ac.in\n\n\n192\n23f3003027@ds.study.iitm.ac.in\n\n\n193\n23f3003871@ds.study.iitm.ac.in\n\n\n194\n23f3004013@ds.study.iitm.ac.in\n\n\n195\n23f3004024@ds.study.iitm.ac.in\n\n\n196\n23f3004066@ds.study.iitm.ac.in\n\n\n197\n23f3004134@ds.study.iitm.ac.in\n\n\n198\n23f3004230@ds.study.iitm.ac.in\n\n\n199\n23f3004238@ds.study.iitm.ac.in\n\n\n200\n23f3004264@ds.study.iitm.ac.in\n\n\n201\n23f3004394@ds.study.iitm.ac.in\n\n\n202\n23f3004444@ds.study.iitm.ac.in\n\n\n203\n24ds1000079@ds.study.iitm.ac.in\n\n\n204\n24ds2000062@ds.study.iitm.ac.in\n\n\n205\n24ds2000101@ds.study.iitm.ac.in\n\n\n206\n24ds2000112@ds.study.iitm.ac.in\n\n\n207\n24ds3000028@ds.study.iitm.ac.in\n\n\n208\n24ds3000031@ds.study.iitm.ac.in\n\n\n209\n24ds3000074@ds.study.iitm.ac.in\n\n\n210\n24f1000010@ds.study.iitm.ac.in\n\n\n211\n24f1000400@ds.study.iitm.ac.in\n\n\n212\n24f1000784@ds.study.iitm.ac.in\n\n\n213\n24f1000925@ds.study.iitm.ac.in\n\n\n214\n24f1001396@ds.study.iitm.ac.in\n\n\n215\n24f1001439@ds.study.iitm.ac.in\n\n\n216\n24f1001520@ds.study.iitm.ac.in\n\n\n217\n24f1002390@ds.study.iitm.ac.in\n\n\n218\n24f1002474@ds.study.iitm.ac.in\n\n\n219\n24f2000994@ds.study.iitm.ac.in\n\n\n220\n24f2002746@ds.study.iitm.ac.in\n\n\n221\n24f2003375@ds.study.iitm.ac.in\n\n\n222\n24f2004863@ds.study.iitm.ac.in\n\n\n\nKind regards,\nTDS Team",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/q3-ga5-not-accepting-right-answer/168011/8"
+  },
+  {
+    "text": "Q: Screenshot 2025-02-01 132301331×314 12.3 KB\nwhat is the error here?? sir @Jivraj\nA: @22f3001315 @21f3002277 @24ds2000024 – please try again after reloading the page. The new error message will be clearer, like this:\nError: At [0].rating: Values don't match. Expected: \"7.4\". Actual: 7.4\n\nFYI, we expect all values as strings, not numbers. That’s because the year can sometimes be a range for a TV series (e.g. 2021 - 2024) and the rating can sometimes be missing.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga4-data-sourcing-discussion-thread-tds-jan-2025/165959/3"
+  },
+  {
+    "text": "Q: In Question 2, it is specifically said to filter the movies however, the evaluator is expecting a TV show there. Should we also include TV shows now?\nedit:  This is an everchanging dataset, so will our answers be saved, as, this json might not be in this order tomorrow?\nA: @23f2000237 A good point. Yes, please include all titles. I’ve reworded the question accordingly. Thanks.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga4-data-sourcing-discussion-thread-tds-jan-2025/165959/7"
+  },
+  {
+    "text": "Q: I have a doubt regarding the bonus mark. Suppose someone were to get 10/10 in the assignment, would their mark be recored as 11/10 or just 10?\n(Assuming they have interacted in this thread)\nA: Anyone scoring 10/10 on GA4 and replying with a relevant message on this thread will get 11/10",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga4-data-sourcing-discussion-thread-tds-jan-2025/165959/16"
+  },
+  {
+    "text": "Q: Just a quick query on the Bonus mark.\nWould this be added to the final grade? Say for example, Someone get a full score in the first 4 assignments. So the total comes up to 39.5/39.5, and would be converted to 0.15 or 15 marks. Would the bonus mark be additional to that 15 or would the score change to 40.5/39.5 and then get normalised to 15?\nA: @JoelJeffrey It will be added to the GA4 marks, not the final grade. So, it’s roughly worth 0.15% on the total - not a full 1% on the total.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga4-data-sourcing-discussion-thread-tds-jan-2025/165959/21"
+  },
+  {
+    "text": "Q: hello sir this is Harish. i completed and saved the week 2 and week 4 assignment. (didn’t do week 3) but the graded assignment shows it is incomplete and the score is 0 for both the weeks . i am attaching the iages. kindly check and reply soon sir.\nimage1035×466 71 KB\nimage1035×453 27.2 KB\nthis is for week 4\nimage1678×847 141 KB\nimage1035×481 38.9 KB\nimage463×457 26.9 KB\nkindly check on this sir.\nA: Could you send me your email id. thanks.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignments-dashboard-scores-incorrect-missing/166816/1"
+  },
+  {
+    "text": "Q: @carlton Sir in my case, in week 2 it is showing “Absent” but I have attempted and saved the answers\nScreenshot 2025-02-12 151022427×596 28.1 KB\nScreenshot 2025-02-12 1511011035×434 21 KB\nMy email ID is 22f2000559@ds.study.iitm.ac.in.\nThank you.\nA: Hi @22f2000559\nI can confirm that our server did record your marks as 7, we will make a correction in the dashboard. Thanks for letting us know. My sincere apologies for the error.\nIf the marks on the dashboard are not changed within the next 7 days, please let us know. I will follow it up on my end and try to get the correction pushed as soon as possible.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignments-dashboard-scores-incorrect-missing/166816/7"
+  },
+  {
+    "text": "Q: Hello Sir/Mam,\nI had created this thread to inform that my marks for week -2 and week-4 graded assignment have not yet been updated and showing in the dashboard. But I have attended it, Please resolve the issue and do the needful actions.\nRegards,\nSengathirsoorian E T\n(22f3000370@ds.study.iitm.ac.in)\nWeek -4\nScreenshot_20250215-0958161080×1852 263 KB\nI can’t be able to enclose another screenshot of week-2 ( marks-5) as I was a new user.\nA: On the 13th of Feb (3 day ago at the time of this reply) an email was sent to all students with the subject [TDS Jan 2025] Grade Corrections. Please refer to that email.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignments-dashboard-scores-incorrect-missing/166816/17"
+  },
+  {
+    "text": "Q: Screenshot (674)1920×1080 273 KB\n@Carlton D’Silva sir can u please see this why it’s given zero, it should be 8 right n in my dashboard it’s showing absent so what i should do ?\nA: Please refer to this post\n\n\n\n\nGRADED ASSIGNMENT RESULT NOT SHOWING , kindly check on this Tools in Data Science\n\n\n    On the 13th of Feb (3 day ago at the time of this reply) an email was sent to all students with the subject [TDS Jan 2025] Grade Corrections. Please refer to that email. \nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignments-dashboard-scores-incorrect-missing/166816/20"
+  },
+  {
+    "text": "Q: @s.anand @carlton @Jivraj\nPlease extend the deadline please.\n88394c0c2e80a1326cfffe020684be4a480×270 10.3 KB\nA: Done \nKind regards\nCant say no to a fuzzy wuzzy cat",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-casual-banter/167344/1"
+  },
+  {
+    "text": "Q: @Saransh_Saini sir what should i do?\nA: @carlton Kindly have a look into this.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/project-1-submission-marked-as-fail-despite-having-dockerfile-image/167471/2"
+  },
+  {
+    "text": "Q: @23f3002530\nTopic moved to the appropriate category in order to get faster responses.\nPlease make it easier for others to help you, by ensuring that topics are created in the correct categories.\nA: @23f3002530\nPlease refer to this post.\n\n\n\n\nTds: assignment is not submitting Tools in Data Science\n\n\n    Your scores are evaluated on a site that is external to the seek portal and is not integrated with the seek portal. Therefore seek does not know if you have submitted or not and by default says that it has not been submitted because it cannot see your external evaluation. There will not be a fix for this for some time. \nScores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal. \nThe scores will only be visible in the dashboard. Just ignore anything inside se…\n  \n\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-assignment-is-not-submitting/166189/10"
+  },
+  {
+    "text": "Q: Yes, same observation for my assignment as well.\nA: Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal.\nThe scores will only be visible in the dashboard. Just ignore anything inside the seek portal.\nAs stated in multiple places in discourse as well as in live sessions, The final score is always your last submission.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-assignment-is-not-submitting/166189/19"
+  },
+  {
+    "text": "Q: There are some errors in grading for GA2 and  GA3 for TDS, even after submitting the assignments score 0 was given and the seek portal displayed assignment was not submitted given that the login was from my own account and was submitted before the time and still got a score of 0.\nScreenshot 2025-02-07 2013161859×960 88.4 KB\nand the same happened for the 3rd assignment\nA: Please refer to this post.\n\n\n\n\nTds: assignment is not submitting Tools in Data Science\n\n\n    Scores for GA1, GA2, GA3, GA4, GA5, Project1, Project2, ROE will NOT be inside your seek portal. \nThe scores will only be visible in the dashboard. Just ignore anything inside the seek portal. \nAs stated in multiple places in discourse as well as in live sessions, The final score is always your last submission. \nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-assignment-is-not-submitting/166189/21"
+  },
+  {
+    "text": "Q: Screenshot 2025-01-12 2236301727×195 27.1 KB\ni have included the email address still its giving error\nA: Hi Guddu,\nInside index.html file of your repo, don’t put html code just put your email in the file nothing else.\nThis issue is because when you deploy on github pages it encrypts any email that’s on page.\nkind regards.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120/4"
+  },
+  {
+    "text": "Q: Screenshot 2025-01-12 2239561674×158 12.8 KB\nthat website is working fine . just  write the parameters after /api\nA: Check your browser console most probably CORS is causing problem.\nTry adding CORS to your code it might work.\nKind regards\nJivraj",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120/5"
+  },
+  {
+    "text": "Q: Screenshot 2025-01-14 at 1.39.39 AM1440×900 154 KB\n@carlton can you please tell me what is wrong in this because I am getting “Error: Response undefined does not match expected” to my answer\nA: Hi Mishkat,\nPlease use  triple backticks to encapsulate code, so that we can debug your code more easily.\neg\nif __name__ == \"__main__\":\n   print (\"Hello\")\n\nPlease use this discourse etiquette to share code.\nThanks and kind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120/9"
+  },
+  {
+    "text": "Q: Facing Issue in GA 2 Question 10 LLM ngrok\nimage1920×886 45.7 KB\nI tired multiple times but issue is still there.\n@carlton @Jivraj @s.anand Kindly help me out.\nA: Hi Telvin,\nTry opening localhost:8080 in browser if that works, if it opens in browser then issue might be with some network configurations.\nI solved this question in github codespace, which didn’t require me to make any changes in network.\nkind regards\nkind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120/10"
+  },
+  {
+    "text": "Q: I am facing an issue with Docker Desktop.\nDocker Desktop Error558×377 27 KB\nI have uninstalled and installed Docker (run as administrator).\nwsl --version\nWSL version: 2.3.26.0\nKernel version: 5.15.167.4-1\nWSLg version: 1.0.65\nMSRDC version: 1.2.5620\nDirect3D version: 1.611.1-81528511\nDXCore version: 10.0.26100.1-240331-1435.ge-release\nWindows version: 10.0.19045.5011\n\nTried many solutions after googling for the issue.\nSo far no solution. Anyone else faced this issue and found a solution?\nA: @Nelson I would recommend Podman or Docker CE rather than Docker Desktop.\nDocker Desktop is not free for organizations over 250 people and many organizations have therefore moved away from it.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga2-deployment-tools-discussion-thread-tds-jan-2025/161120/17"
+  },
+  {
+    "text": "Q: @carlton sir i watch live session recording , but still not getting some useful from it , I am talking about week 3 content in llm , these words are never heard by us so please try to tech from basic things please . At least tell us , what is llm and what is use of , everything is going to above of our head .\nA: Hi Hari,\nThe goal of the course was never to go deep into specific technologies, with perhaps the exception of LLMs as major tooling capability for data science. Due to the volume of the content in the first 3 weeks it was decided to at least get students sufficient information to be able to do the Graded Assignments. One of the criticisms we received last term was that the sessions were too slow because we were covering from the very basics. So it was a conscious decision to speed up and shorten the explanations. Of course this is always difficult to get right because we respond to students in sessions. This is why attending the sessions is more valuable than watching the sessions. We cannot effectively gauge what level to pitch at if the audience is silent or not involved. We can only guess the level of the vast silent mass of students. The quality of sessions only improve when the sessions are interactive and well attended.\nHave you watched this session in particular?\n\n\n\n\nIf thats insufficient for you last term we did a 2hr 48 min session on just introducing it\n\n\n\n\nfollowed by another 2 hour detailed explanation of the more advanced use cases\n\n\n\n\nBut of course does everyone want to watch 5.5 hours of sessions to understand it? That depends on the student.\nUltimately the best you can get out of sessions is by actually attending them because only then can we address gaps in understanding.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/llm-what-rocket-science-going-on-here/166303/2"
+  },
+  {
+    "text": "Q: @Muthupalaniappan\nIt is saying you did not attempt it because you did not answer the seek portal question.\nYou are not graded on the seek portal question. It only exists to make sure you saw the GA and attempted it. You are only graded on your submission of GA1 on the actual assignment page where your last saved submission is used for grading.\nKind regards\nA: carlton:\n\nYou are not graded on the seek portal question. It only exists to make sure you saw the GA and attempted it. You are only graded on your submission of GA1 on the actual assignment page where your last saved submission is used for grading.\n\n\n@22f3002539 Please refer to above reply.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignment-1-submission-not-shown/165396/2"
+  },
+  {
+    "text": "Q: Respected Sir,\nI made the similar mistake of not selecting a yes on the seek IITM portal\nAccording to your previous replies, does it imply that only the answers submitted through the link provided will be considered for evaluation regardless of the seek portal selection for this time?\nThanks\nA: @23f2005471\nCorrect! Only scores that were saved in your actual last submission on the ga page itself will be evaluated (the portal question is just to make sure you were aware of the GA and confirm that you attempted it).\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignment-1-submission-not-shown/165396/7"
+  },
+  {
+    "text": "Q: Dear @s.anand sir,\nFor the TDS week 1 assignment, I have submitted it in the link (this link) that was mentioned in the graded assignment but I did not submit yes in the portal tab. Can you please help me out this one time??\nI will make sure I submit it in both places next time.\nI kindly request you to help me out this one time, as this will really impact my grade particularly as of this course.\nI got a total of 9.5 in this assignment but as you can see in the image attached below I erred up with this submission\nimage747×473 15 KB\nA: @Thinesh please refer to the above response.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignment-1-submission-not-shown/165396/11"
+  },
+  {
+    "text": "Q: Good evening, I have submitted my GA1 in the ex website\nimage1895×885 65.2 KBI\nhowever, I was unable to submit [press the yes] on the iitm TDS coursework site.\nI just wanted to confirm that my assignment will be graded and taken into consideration.\nThank you\nA: @Thinesh @23f1002223 @22f3001365 @Anshuman_Dave\n\n\n\n\nGraded assignment 1 - Submission not shown Tools in Data Science\n\n\n@Muthupalaniappan \nIt is saying you did not attempt it because you did not answer the seek portal question. \nYou are not graded on the seek portal question. It only exists to make sure you saw the GA and attempted it. You are only graded on your submission of GA1 on the actual assignment page where your last saved submission is used for grading. \nKind regards\n  \n\nPlease refer to this post.\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/graded-assignment-1-submission-not-shown/165396/13"
+  },
+  {
+    "text": "Q: I’m confused where exactly is the TDS course?\nimage1920×1073 124 KB\nWhere are the weekly videos?\nWhere and what is the assignment?\nI’m confused.\nA: Kindly refer to this post\n\n\n\n\nTds jan 2025 calender accesss and video lecture access in portal Tools in Data Science\n\n\n@RaunakThatoi @jahnavih \nThe course content is available at \n [Screenshot 2025-01-13 at 22.47.14] \nAt Tools in Data Science the course calendar is also available. \n [Screenshot 2025-01-13 at 22.51.33] \nLikewise the GAs also are available through the links in the seek portal as well as on the course domain shared above. \nThe course introduction has very important information. Many students who faced problems in Tools for Data Science in previous terms usually never read the intro. Please be dilig…\n  \n\nKind regards",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/tds-jan-2025-calender-accesss-and-video-lecture-access-in-portal/163158/5"
+  },
+  {
+    "text": "Q: Was this session recorded? If recorded please provide link. This session was not in calender so missed that.\nA: This session will be uploaded on YouTube soon. In the meanwhile you can access the recording here\n\ndrive.google.com\n\n\n\nLive Session - TDS - 2025/01/23 19:54 GMT+05:30 - Recording\nGoogle Drive file.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/agenda-for-todays-live-session-flask-tutorial/164869/3"
+  },
+  {
+    "text": "Q: If a student has 10/10 and his name is in the bonus list, how would that look like in the dashboard? I don’t think it is added in my case.\nA: It will show up as 110 marks. Bonus marks are for all discourse posts on this thread that Anand has identified as valid. I have provided operations team with the updated corrected scores. You will start seeing them in the dashboard soon.",
+    "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga4-data-sourcing-discussion-thread-tds-jan-2025/165959/388"
+  },
+  {
+  "text": "Q: The question asks to use gpt-3.5-turbo-0125 model but the ai-proxy provided by Anand sir only supports gpt-4o-mini. So should we just use gpt-4o-mini or use the OpenAI API for gpt3.5 turbo?\nA: You should use the gpt-4o-mini model supported by the AI proxy provided. Since the proxy only supports that model and your usage limit applies per month, it's best to stick with gpt-4o-mini rather than trying to access gpt-3.5-turbo directly through OpenAI.",
+  "original_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939"
+  }
+]
