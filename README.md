@@ -88,4 +88,4 @@ Make sure to call the `/api/` endpoint via **POST** request.
 ## 👩‍💻 Developer
 
 Developed by **Garima**  
-For the **TDS Jan–Apr 2025** course project.
+For the **TDS** course project 1.
