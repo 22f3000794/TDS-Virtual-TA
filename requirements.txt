@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+requests
+pydantic
+faiss-cpu
+numpy
+langchain_nomic
+python-dotenv
+beautifulsoup4
+playwright
+markdownify
+python-multipart
