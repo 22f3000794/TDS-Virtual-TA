@@ -1,13 +1,3 @@
-license: mit  
-title: TDS-Virtual-TA  
-sdk: docker  
-emoji: 🔥  
-colorFrom: blue  
-colorTo: indigo  
-short_description: A virtual TA for TDS course  
-
----
-
 # TDS Virtual TA 🤖📘
 
 This is a Virtual Teaching Assistant (TA) for the **Tools in Data Science (TDS)** course (Jan–Apr 2025).  
